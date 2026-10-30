@@ -1,6 +1,6 @@
 window.PORTFOLIO = {
 
- 
+
   site: {
     name: "Nguyen Vu Nguyen Khoi",
     nickname: "Cube-tie Guy",
