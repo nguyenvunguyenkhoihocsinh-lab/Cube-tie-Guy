@@ -8,7 +8,7 @@ window.PORTFOLIO = {
     intro: "With a keen interest in computer science, artificial intelligence, and human thinking, curiosity extends to exploring questions, building projects, and discovering patterns in unexpected places.",
     email: "nguyenvunguyenkhoi.hocsinh@gmail.com",
     links: [
-      { label: "GitHub", url: "" },     // e.g. "https://github.com/your-username"
+      { label: "GitHub", url: "" },     
       { label: "LinkedIn", url: "" }
     ]
   },
@@ -111,7 +111,7 @@ window.PORTFOLIO = {
               title: "VN-KomPass",
               year: "2026",
               role: "Co-developer",
-              summary: "An AI-powered travel assistant designed to help users explore Vietnam through personalized itineraries, destination discovery, and conversational guidance.",
+              summary: "An AI-powered travel assistant designed to help users explore Vietnam through personalized itineraries, destination discovery, and conversational guidance.(Developed as my entry for the Tekmonk Coding Olympiad 2026, this project is currently undergoing testing and continuous refinement to improve its functionality and user experience.)",
           
               images: [ { src: "vnkompass.png", alt: "" } ]
             },
