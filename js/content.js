@@ -100,33 +100,37 @@ window.PORTFOLIO = {
       ]
     },
 
-    projects: {
-      intro: "From early ideas to working prototypes, these projects reflect an interest in exploring technology, solving problems, and creating useful experiences.",
-      blocks: [
+
+projects: {
+  intro: "From early ideas to working prototypes, these projects reflect an interest in exploring technology, solving problems, and creating useful experiences.",
+  blocks: [
+    {
+      type: "projects",
+      title: "Featured Projects",
+      items: [
         {
-          type: "projects",
-          title: "Featured Projects",
-          items: [
-            {
-              title: "VN-KomPass",
-              year: "2026",
-              role: "Co-developer",
-              summary: "An AI-powered travel assistant designed to help users explore Vietnam through personalized itineraries, destination discovery, and conversational guidance.(Developed as my entry for the Tekmonk Coding Olympiad 2026, this project is currently undergoing testing and continuous refinement to improve its functionality and user experience.)",
-          
-              images: [ { src: "vnkompass.png", alt: "" } ]
-            },
-            {
-              title: "Hybrid AI Models for Crypto Asset Trading and Risk Control",
-              year: "2026",
-              role: "CO-AUTHOR",
-              summary: "Exploring the integration of deep learning and reinforcement learning for cryptocurrency trading and risk management under volatile market conditions.",
-              
-              links: {paper: "https://ikprress.org/index.php/JOBARI/article/view/10251", github: "", demo: "" }
-            }
-          ]
+          title: "VN-KomPass",
+          year: "2026",
+          role: "Co-developer",
+          summary: "An AI-powered travel assistant designed to help users explore Vietnam through personalized itineraries, destination discovery, and conversational guidance. I developed strategies for intelligent data collection and organization, while also designing and implementing the web interface and its core features. Originally developed for the Tekmonk Coding Olympiad 2026, the project is still undergoing testing and continuous refinement.",
+          images: [{ src: "vnkompass.png", alt: "" }]
+        },
+        {
+          title: "Hybrid AI Models for Crypto Asset Trading and Risk Control",
+          year: "2026",
+          role: "Co-author",
+          summary: "Exploring the integration of deep learning and reinforcement learning for cryptocurrency trading and risk management under volatile market conditions. My contributions included conducting simulation tests, researching LSTM and reinforcement learning approaches, and helping draft, structure, edit, and format the English research manuscript.",
+          links: {
+            paper: "https://ikprress.org/index.php/JOBARI/article/view/10251",
+            github: "",
+            demo: ""
+          }
         }
       ]
-    },
+    }
+  ]
+},
+
 
     achievements: {
   intro: "From computational thinking to AI and mathematics, these achievements reflect my curiosity and drive to solve unfamiliar problems.",
