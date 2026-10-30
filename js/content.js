@@ -1,11 +1,11 @@
 window.PORTFOLIO = {
 
-  /* ---------- Site-wide information ---------- */
+ 
   site: {
     name: "Nguyen Vu Nguyen Khoi",
     nickname: "Cube-tie Guy",
     tagline: "Driven by curiosity, grounded in reality.",
-    intro: "I'm a student interested in computer science, artificial intelligence, and the way people think. I enjoy exploring questions, building projects, and finding patterns in unexpected places.",
+    intro: "With a keen interest in computer science, artificial intelligence, and human thinking, curiosity extends to exploring questions, building projects, and discovering patterns in unexpected places.",
     email: "nguyenvunguyenkhoi.hocsinh@gmail.com",
     links: [
       { label: "GitHub", url: "" },     // e.g. "https://github.com/your-username"
@@ -13,10 +13,6 @@ window.PORTFOLIO = {
     ]
   },
 
-  /* ---------- The six cube faces / pages ----------
-     `face` is the position on the cube; `color` is the sticker colour.
-     Keep the six faces unique. Opposite faces (as on a real cube):
-     front/back, left/right, top/bottom. */
   sections: [
     { id: "about",        file: "about.html",        num: "01", title: "About Me",              short: "About",        color: "red",    face: "front",  blurb: "Who I am and what drives me." },
     { id: "education",    file: "education.html",    num: "02", title: "Education",             short: "Education",    color: "blue",   face: "right",  blurb: "Schools, subjects and coursework." },
@@ -26,9 +22,7 @@ window.PORTFOLIO = {
     { id: "goals",        file: "goals.html",        num: "06", title: "Future Goals",          short: "Future Goals", color: "white",  face: "bottom", blurb: "Where I want to go academically." }
   ],
 
-  /* ---------- Page content ----------
-     Block types: text, split, facts, chips, timeline, projects, groups,
-     entries, interests, list. See the examples below. */
+
   pages: {
 
     about: {
@@ -41,7 +35,7 @@ window.PORTFOLIO = {
             "I'm a high school student from Vietnam interested in computer science, artificial intelligence, and the ways technology shapes our lives. What fascinates me isn't just how systems work, but how they interact with people. I've become particularly curious about why misleading information spreads online and why people sometimes believe claims that seem questionable at first glance.",
             "Outside the world of code, I enjoy solving Rubik's cubes, spotting patterns, and exploring ideas that don't always fit neatly into one subject. I like the process of figuring things out: testing an approach, questioning an assumption, and trying again when something doesn't work. I also appreciate a good joke, even if my own occasionally needs more debugging than my code."
           ],
-          image: { src: "https://i.postimg.cc/nr5hWmGy/1792866560226-139158395809992614-48972867510521317-9b1982824f302128ebe4b1ef94ea2403.jpg", alt: "", portrait: true }
+          image: { src: "me.jpg", alt: "", portrait: true }
         },
         {
           type: "facts",
@@ -80,7 +74,6 @@ window.PORTFOLIO = {
             {
               meta: "Learning Beyond the Classroom",
               title: "Self-directed exploration",
-              subtitle: "[PROGRAMME OR GRADE LEVEL]",
               body: "Exploring computer science, artificial intelligence, and the ways technology shapes human decisions.",
               points: []
             }
@@ -99,18 +92,20 @@ window.PORTFOLIO = {
           title: "Milestones & qualifications",
           items: [
             { meta: "2026", title: "SAT — 1520" },
-            { meta: "2026", title: "Ielts — 7.5" }
+            { meta: "2026", title: "Ielts — 7.5" },
+            { meta: "2025 - 2026", title: "GPA — 9.5" },
+            { meta: "2024 - 2025", title: "GPA — 9.2" }
           ]
         }
       ]
     },
 
     projects: {
-      intro: "[PAGE INTRODUCTION] A short paragraph about the kinds of projects you like to work on.",
+      intro: "From early ideas to working prototypes, these projects reflect an interest in exploring technology, solving problems, and creating useful experiences.",
       blocks: [
         {
           type: "projects",
-          title: "Selected projects",
+          title: "Featured Projects",
           items: [
             {
               title: "VN-KomPass",
@@ -118,8 +113,7 @@ window.PORTFOLIO = {
               role: "Co-developer",
               summary: "An AI-powered travel assistant designed to help users explore Vietnam through personalized itineraries, destination discovery, and conversational guidance.",
           
-              images: [ { src: "https://i.postimg.cc/5t6P2Nh1/Anh-chup-man-hinh-2026-10-28-180205.png", alt: "" } ],
-              links: { github: "", demo: "" }
+              images: [ { src: "vnkompass.png", alt: "" } ]
             },
             {
               title: "Hybrid AI Models for Crypto Asset Trading and Risk Control",
@@ -151,7 +145,7 @@ window.PORTFOLIO = {
               body: "Recognized for my potential in applying AI and web development to solve practical problems through technology.",
               images: [
     {
-      src: "https://i.postimg.cc/4dhBzfQc/Anh-chup-man-hinh-2026-10-28-183428.png",
+      src: "tekmonk.png",
       alt: "Potential Excellence Award at Tekmonk Coding Olympiad 2026"
     }
   ]
@@ -174,8 +168,8 @@ window.PORTFOLIO = {
               body: "Demonstrated logical reasoning and computational thinking through challenges involving computational concepts.",
                             images: [
     {
-      src: "https://scontent.fhan4-2.fna.fbcdn.net/v/t39.30808-6/658844467_1649490703201287_7895562932104529169_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFn1chkhpG0Y9RoBR5YwLn9eupS3PAOnE966lLc8A6cT_w4BYBIEL_V44qzSmPBFf1HDZw3mv6SFYhTK8DCfl8Y&_nc_ohc=P-Doi9ZyV6UQ7kNvwHkm-4t&_nc_oc=AdotuBIoJk_FDOuaHc_7sovvji0L_QM-IVDr9QONU_rIJTByDkuM1FKGYZVwaK6CGjXNbG9gq5AK66TpmzWUNWHW&_nc_zt=23&_nc_ht=scontent.fhan4-2.fna&_nc_gid=eDpb8y7BENKhGzVBPSRb1Q&_nc_ss=7b2a8&oh=00_AQSjpZZ8JYGkJ_924tZqX0qHOVjotLp4lppXizqaLVIGZA&oe=6AE79A99",
-      alt: "Potential Excellence Award at Tekmonk Coding Olympiad 2026"
+      src: "bebras.jpg",
+      alt: "High Distinction in Vietnam Computational Thinking Challenge (Bebras) 2025"
     }
   ]
             }
@@ -202,27 +196,27 @@ activities: {
       title: "Activities",
       items: [
         {
-          meta: "[2024 – 2025]",
+          meta: "2024 – 2025",
           title: "Ams Chess Academy (ACA)",
           subtitle: "Chess Tournament Operations & Match Arbitration",
           body: "Supported the Hanoi Summer Chess Championship, Chess Tour, and Hanoi Chess Tournament by coordinating venue setup, managing equipment and participant check-ins, assisting parents and attendees, and arbitrating matches. Working across different venues taught me to stay organized, respond to unexpected situations, and help competitions run smoothly as part of a team.",
           tags: ["Chess", "Event Operations", "Teamwork"],
           images: [
             {
-              src:"https://i.postimg.cc/T2Zk0DKr/1793190656998-139158395809992614-48972867510521317-64cb0ee31be35f946e47168359164130.jpg",
+              src:"aca.jpg",
               caption: ""
             }
           ]
         },
         {
-          meta: "[2025 – 2026]",
+          meta: "2025 – 2026",
           title: "AzureAms Programming Club (AAPC)",
           subtitle: "Programming Education & Communications",
           body: "Contributed to the club's outreach by writing and managing Facebook promotional posts, developing content ideas to engage prospective members, and preparing programming lesson materials for middle school students. I enjoyed making technical concepts more approachable, whether through a lesson plan or a post that encouraged someone to explore coding.",
           tags: ["Programming", "Teaching", "Communication"],
           images: [
             {
-              src:"https://scontent.fhan4-1.fna.fbcdn.net/v/t39.30808-6/768990787_122256662966136057_1018667786782110875_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEtHb1Kt3SVmKgTORzCjVNk_ds5PI0g2dr92zk8jSDZ2i3D4Pk9mMozwvKOWw6qlAVflsdszVMOXim4zcdSR4Rg&_nc_ohc=msZeMyXeVaIQ7kNvwFRqOx4&_nc_oc=Adru2LNJ9pmKItSKr4vQqofiY24zHgXf-Leu-lTGPOWZ1eKzyRYBIvyqP1hrgSPPV8qG00NV4LsLCi4ZUn8hRrxz&_nc_zt=23&_nc_ht=scontent.fhan4-1.fna&_nc_gid=qNQEnR8l8lUCVKb8F9o2MA&_nc_ss=7b2a8&oh=00_AQQW1zLEEPTFH0pB21m1sh9iUuXrqBFlzcdhf1gvB1XWKA&oe=6AE7A251",
+              src:"aapc.jpg",
               caption: ""
             }
           ]
@@ -235,7 +229,7 @@ activities: {
           tags: ["Community Service", "Volunteering"],
           images: [
             {
-              src:"https://i.postimg.cc/wBp8Gr3h/1793191186920-139158395809992614-48972867510521317-597c95a4836e69e230c0cf3fcdff2837.jpg",
+              src:"volunteer_collage_4x3.png",
               caption: ""
             }
           ]
