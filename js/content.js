@@ -229,7 +229,7 @@ activities: {
           meta: "2026",
           title: "Hospital Meal Distribution",
           subtitle: "Volunteer",
-          body: "Participated in distributing meals to people at a local hospital. The experience gave me an opportunity to contribute through a simple, practical act of service and reminded me that small gestures can matter in people's everyday lives.",
+          body: "Participated in distributing meals to people at National Children's Hospital. The experience gave me an opportunity to contribute through a simple, practical act of service and reminded me that small gestures can matter in people's everyday lives.",
           tags: ["Community Service", "Volunteering"],
           images: [
             {
