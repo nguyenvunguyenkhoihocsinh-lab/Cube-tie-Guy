@@ -173,10 +173,10 @@ projects: {
       alt: "High Distinction in Vietnam Computational Thinking Challenge (Bebras) 2025"
     }
   ]
-            }
+            
           
         
-      ]
+      
     },
     {
       type: "text",
