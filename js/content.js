@@ -132,7 +132,8 @@ projects: {
 },
 
 
-    achievements: {
+
+achievements: {
   intro: "From computational thinking to AI and mathematics, these achievements reflect my curiosity and drive to solve unfamiliar problems.",
   blocks: [
     {
@@ -148,30 +149,28 @@ projects: {
               subtitle: "Tekmonk Coding Olympiad 2026",
               body: "Recognized for my potential in applying AI and web development to solve practical problems through technology.",
               images: [
-    {
-      src: "tekmonk.png",
-      alt: "Potential Excellence Award at Tekmonk Coding Olympiad 2026"
-    }
-  ]
+                {
+                  src: "tekmonk.png",
+                  alt: "Potential Excellence Award at Tekmonk Coding Olympiad 2026"
+                }
+              ]
             },
             {
               meta: "2025",
               title: "Silver Award",
               subtitle: "Online International Math Challenge (IMC)",
               body: "Recognized for mathematical reasoning and problem-solving in an international mathematics competition."
-            
-          
-        },
+            },
             {
               meta: "2025",
               title: "High Distinction",
               subtitle: "Vietnam Computational Thinking Challenge (Bebras)",
               body: "Demonstrated logical reasoning and computational thinking through challenges involving computational concepts.",
-                            images: [
-    {
-      src: "bebras.jpg",
-      alt: "High Distinction in Vietnam Computational Thinking Challenge (Bebras) 2025"
-    }
+              images: [
+                {
+                  src: "bebras.jpg",
+                  alt: "High Distinction in Vietnam Computational Thinking Challenge (Bebras) 2025"
+                }
               ]
             }
           ]
@@ -187,6 +186,7 @@ projects: {
     }
   ]
 },
+
 
   
 activities: {
