@@ -84,7 +84,7 @@ window.PORTFOLIO = {
           title: "Areas of exploration",
           groups: [
             { label: "Technology", items: ["Computer science", "Artificial intelligence", "Web development"] },
-            { label: "Technology", items: ["Human behaviour", "Misinformation"] }
+            { label: "Human & Society", items: ["Human behaviour", "Misinformation"] }
           ]
         },
         {
@@ -162,9 +162,6 @@ projects: {
             }
           ]
         },
-        {
-          label: "Computational Thinking",
-          items: [
             {
               meta: "2025",
               title: "High Distinction",
@@ -177,8 +174,8 @@ projects: {
     }
   ]
             }
-          ]
-        }
+          
+        
       ]
     },
     {
