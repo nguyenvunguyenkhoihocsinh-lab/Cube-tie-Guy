@@ -159,8 +159,8 @@ projects: {
               title: "Silver Award",
               subtitle: "Online International Math Challenge (IMC)",
               body: "Recognized for mathematical reasoning and problem-solving in an international mathematics competition."
-            }
-          ]
+            
+          
         },
             {
               meta: "2025",
@@ -172,11 +172,11 @@ projects: {
       src: "bebras.jpg",
       alt: "High Distinction in Vietnam Computational Thinking Challenge (Bebras) 2025"
     }
-  ]
-            
-          
-        
-      
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       type: "text",
